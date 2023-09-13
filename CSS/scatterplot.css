@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+  :root {
+      /* Colors
+      ____________________*/
+      --color-bg-primary: #DCDCDC;
+      --color-bg-secondary: #242424;
+      --color-bg-footer: #151515;
+      --color-white: #ffffff;
+      --color-bg-main: #676767;
+      --color-border: #373737;
+      --dusty-pink:  #d8b7ba;
+      --dark-grey:  #3c393d;
+      --white-main:  white;
+    
+      /* Font & Typography
+      ___________________*/
+      --ff-body: "Space Grotesk", sans-serif;
+      --Playfair: 'Playfair Display', serif;
+      --Quicksand: 'Quicksand', sans-serif;
+      --Roboto: 'Roboto', sans-serif;
+      
+      /* font sizes */
+      --fs-sm: 1.4rem;
+      --fs-md: 1.6rem;
+      --fs-lg: 2rem;
+      --fs-xl: 2.4rem;
+      --fs-xxl: 3.2rem;
+      --fs-biggest: clamp(3rem, 8vw, 5rem);
+      /* font weight */
+      --fw-regular: 400;
+      --fw-medium: 500;
+      --fw-semibold: 600;
+      --fw-bold: 700;
+    
+      /* z-index
+      ___________________*/
+      --zindex-menu: 1000;
+      --zindex-fixed: 1010;
+    
+      /* With & Height 
+      ------------------*/
+      --width-container: 120rem; 
+      --height-header: 15rem; 
+      --height-header--scroll: 10rem;
+    
+      /* Transition and box shadow*/
+      --transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+      --box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    body {
+        margin: 0;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+  
+  circle {
+    fill: #d8b7ba;
+    opacity: 0.3;
+  }
+  
+  text {
+    font-family: sans-serif;
+  }
+  
+  .tick text {
+    font-size: 2.0em;
+    fill: #635F5D;
+  }
+  
+  .tick line {
+    stroke: #C0C0BB;
+  }
+  
+  .axis-label {
+    font-size: 5em;
+    fill: #8E8883;
+  }
+  
+  .title {
+    font-size: 3.7em;
+    fill: #635F5D;
+  }
+
+  
