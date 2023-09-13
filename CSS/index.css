@@ -446,15 +446,15 @@
 }
 
 .service__card.frontend::before {
-    background-image: url("/IMG/blogppost2.jpg");
+    background-image: url("../IMG/blogppost2.jpg");
 }
 
 .service__card.backend::before {
-    background-image: url("/IMG/blogppost2.jpg");
+    background-image: url("../IMG/blogppost2.jpg");
 }
 
 .service__card.uiux::before {
-    background-image: url("/IMG/blogppost2.jpg");
+    background-image:url("../IMG/blogppost2.jpg");
 }
 
   
